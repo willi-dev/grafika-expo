@@ -100,9 +100,38 @@
 .huge-margin-left {@include marg-left($huge-spacing)}
 .huge-margin-right {@include marg-right($huge-spacing)}
 
+.text-uppercase{
+	text-transform: uppercase;
+}
+.text-bold{
+	font-weight: 700;
+}
+
 .text-white{
 	color: $white;
 }
 .text-pink{
 	color: $pink;
+}
+
+.title-large{
+	font-size: $title-large;
+}
+.title-base{
+	font-size: $title-base;
+}
+.title-small{
+	font-size: $title-small;
+}
+.p-large{
+	font-size: $paragraph-large;
+}
+.p-base{
+	font-size: $paragraph-base;
+}
+.p-small{
+	font-size: $paragraph-small;
+}
+.p-tiny{
+	font-size: $paragraph-tiny;
 }

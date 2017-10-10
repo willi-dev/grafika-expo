@@ -1,9 +1,44 @@
+@import "./_variables.scss";
+
 .graf-section{
 
 	&__intro{
+		padding-top: 90px;
+	    min-height: 600px;
 
 	}
 
-	&__
+	&__tentang{
+		&-content-1{
+			background-color: $blue;
+		}
+
+		&-content-2{
+			background-color: $white;
+		}
+	}
+
+	&__event{
+		&-content-1{
+			background-color: $light-orange;
+		}
+		&-content-2{
+			background-color: $white;
+		}
+	}
+
+	&__peserta{
+		&-content{
+			background-color: $dark-orange;
+		}
+	}
+
+	&__galeri{
+
+	}
+
+	&__kontak{
+		
+	}
 
 }
