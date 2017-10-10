@@ -2,10 +2,30 @@
 
 .graf-section{
 
+	&__colorbar{
+		&-item{
+			height: 30px;
+		}
+		&--1{
+			background-color: $pink;
+		}
+		&--2{
+			background-color: $light-orange;
+		}
+		&--3{
+			background-color: $dark-blue;
+		}
+		&--4{
+			background-color: $yellow;
+		}
+	}
+
 	&__intro{
 		padding-top: 90px;
 	    min-height: 600px;
-
+		.graf-logo-intro{
+			margin:auto;
+		}
 	}
 
 	&__tentang{
@@ -40,5 +60,10 @@
 	&__kontak{
 		
 	}
+	
+	&__footer{
+		background-color: $light-orange;
+		text-align: center;
 
+	}
 }

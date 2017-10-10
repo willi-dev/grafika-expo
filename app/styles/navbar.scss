@@ -2,6 +2,61 @@
 
 .graf-navbar{
 	background-color: $dark-blue;
+    border-color: $dark-blue;
+    transition: all .3s ease-in;
+    .navbar-nav > li > a{
+        color: $white;
+        font-family: $font-regular;
+        &:hover{
+            color: $yellow;
+        }
+        &:focus{
+            color: $yellow;
+        }
+        
+    }
+    .navbar-nav > .active > a{
+        background-color: $dark-blue;
+        color: $yellow;
+
+        &:hover{
+            background-color: $dark-blue;
+            color: $yellow;
+        }
+        &:focus{
+            background-color: $dark-blue;
+            color: $yellow;   
+        }
+    }
+    .graf-nav-logo{
+        padding: 0;
+        img{
+            height: 90%;
+        }
+    }
+    .graf-moremedia-logo{
+        padding:0;
+    }
+
+    &.navbar-default .navbar-collapse{
+        border-color: $dark-blue;
+    }
+    &.navbar-default .navbar-toggle .icon-bar{
+        background-color: #ffffff;
+        border-radius: 0px;
+        width:24px;
+        height: 3px;
+    }
+    &.navbar-default .navbar-toggle:hover, &.navbar-default .navbar-toggle:focus{
+        @media screen and (max-width: 767px){
+            background-color: transparent;
+        }
+    }
+    &.navbar-default .navbar-toggle{
+        @media screen and (max-width: 767px){
+            border-color: transparent;
+        }
+    }
 }
 
 @media(min-width:768px) {

@@ -88,5 +88,14 @@ function loadInstagramRitechExpo(){
 $(document).ready( function(){
 
     // loadInstagramRitechExpo();
+
+    $('.graf-thumb ').click(function(e){
+        e.preventDefault();
+        $('.modal-body').empty();
+        var title = $(this).parent('a').attr("title");
+        $('.modal-title').html(title);
+        $($(this).parents('div').html()).appendTo('.modal-body');
+        $('#GalleryModal').modal({show:true});
+    });
     
 });
