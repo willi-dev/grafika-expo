@@ -47,6 +47,19 @@
         width:24px;
         height: 3px;
     }
+
+    &.top-nav-collapse{
+        .graf-nav-logo{
+            padding: 0;
+            img{
+                height: 90%;
+            }
+        }
+        .graf-moremedia-logo{
+            padding:0;
+        }
+    }
+
     &.navbar-default .navbar-toggle:hover, &.navbar-default .navbar-toggle:focus{
         @media screen and (max-width: 767px){
             background-color: transparent;
@@ -55,6 +68,7 @@
     &.navbar-default .navbar-toggle{
         @media screen and (max-width: 767px){
             border-color: transparent;
+            
         }
     }
 }
