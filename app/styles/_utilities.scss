@@ -1,0 +1,108 @@
+@import './_variables.scss';
+
+@mixin pad($spacing) { padding: $spacing }
+@mixin pad-y($spacing) { padding-top: $spacing; padding-bottom: $spacing }
+@mixin pad-x($spacing) { padding-left: $spacing; padding-right: $spacing }
+@mixin pad-top($spacing) { padding-top: $spacing }
+@mixin pad-bottom($spacing) { padding-bottom: $spacing }
+@mixin pad-left($spacing) { padding-left: $spacing }
+@mixin pad-right($spacing) { padding-right: $spacing }
+
+@mixin marg($spacing) { margin: $spacing;}
+@mixin marg-y($spacing) { margin-top: $spacing; margin-bottom: $spacing;}
+@mixin marg-x($spacing) { margin-left: $spacing; margin-right: $spacing;}
+@mixin marg-top($spacing) { margin-top: $spacing;}
+@mixin marg-bottom($spacing) { margin-bottom: $spacing;}
+@mixin marg-left($spacing) { margin-left: $spacing;}
+@mixin marg-right($spacing) { margin-right: $spacing;}
+
+
+/////// Padding Spacing
+.tiny-padding {@include pad($tiny-spacing)}
+.tiny-padding-y {@include pad-y($tiny-spacing)}
+.tiny-padding-x {@include pad-x($tiny-spacing)}
+.tiny-padding-top {@include pad-top($tiny-spacing)}
+.tiny-padding-bottom {@include pad-bottom($tiny-spacing)}
+.tiny-padding-left {@include pad-left($tiny-spacing)}
+.tiny-padding-right {@include pad-right($tiny-spacing)}
+
+.small-padding {@include pad($small-spacing)}
+.small-padding-y {@include pad-y($small-spacing)}
+.small-padding-x {@include pad-x($small-spacing)}
+.small-padding-top {@include pad-top($small-spacing)}
+.small-padding-bottom {@include pad-bottom($small-spacing)}
+.small-padding-left {@include pad-left($small-spacing)}
+.small-padding-right {@include pad-right($small-spacing)}
+
+.base-padding {@include pad($base-spacing)}
+.base-padding-y {@include pad-y($base-spacing)}
+.base-padding-x {@include pad-x($base-spacing)}
+.base-padding-top {@include pad-top($base-spacing)}
+.base-padding-bottom {@include pad-bottom($base-spacing)}
+.base-padding-left {@include pad-left($base-spacing)}
+.base-padding-right {@include pad-right($base-spacing)}
+
+.large-padding {@include pad($large-spacing)}
+.large-padding-y {@include pad-y($large-spacing)}
+.large-padding-x {@include pad-x($large-spacing)}
+.large-padding-top {@include pad-top($large-spacing)}
+.large-padding-bottom {@include pad-bottom($large-spacing)}
+.large-padding-left {@include pad-left($large-spacing)}
+.large-padding-right {@include pad-right($large-spacing)}
+
+.huge-padding {@include pad($huge-spacing)}
+.huge-padding-y {@include pad-y($huge-spacing)}
+.huge-padding-x {@include pad-x($huge-spacing)}
+.huge-padding-top {@include pad-top($huge-spacing)}
+.huge-padding-bottom {@include pad-bottom($huge-spacing)}
+.huge-padding-left {@include pad-left($huge-spacing)}
+.huge-padding-right {@include pad-right($huge-spacing)}
+//////////////
+
+////// Margin Spacing
+.tiny-margin {@include marg($tiny-spacing)}
+.tiny-margin-y {@include marg-y($tiny-spacing)}
+.tiny-margin-x {@include marg-x($tiny-spacing)}
+.tiny-margin-top {@include marg-top($tiny-spacing)}
+.tiny-margin-bottom {@include marg-bottom($tiny-spacing)}
+.tiny-margin-left {@include marg-left($tiny-spacing)}
+.tiny-margin-right {@include marg-right($tiny-spacing)}
+
+.small-margin {@include marg($small-spacing)}
+.small-margin-y {@include marg-y($small-spacing)}
+.small-margin-x {@include marg-x($small-spacing)}
+.small-margin-top {@include marg-top($small-spacing)}
+.small-margin-bottom {@include marg-bottom($small-spacing)}
+.small-margin-left {@include marg-left($small-spacing)}
+.small-margin-right {@include marg-right($small-spacing)}
+
+.base-margin {@include marg($base-spacing)}
+.base-margin-y {@include marg-y($base-spacing)}
+.base-margin-x {@include marg-x($base-spacing)}
+.base-margin-top {@include marg-top($base-spacing)}
+.base-margin-bottom {@include marg-bottom($base-spacing)}
+.base-margin-left {@include marg-left($base-spacing)}
+.base-margin-right {@include marg-right($base-spacing)}
+
+.large-margin {@include marg($large-spacing)}
+.large-margin-y {@include marg-y($large-spacing)}
+.large-margin-x {@include marg-x($large-spacing)}
+.large-margin-top {@include marg-top($large-spacing)}
+.large-margin-bottom {@include marg-bottom($large-spacing)}
+.large-margin-left {@include marg-left($large-spacing)}
+.large-margin-right {@include marg-right($large-spacing)}
+
+.huge-margin {@include marg($huge-spacing)}
+.huge-margin-y {@include marg-y($huge-spacing)}
+.huge-margin-x {@include marg-x($huge-spacing)}
+.huge-margin-top {@include marg-top($huge-spacing)}
+.huge-margin-bottom {@include marg-bottom($huge-spacing)}
+.huge-margin-left {@include marg-left($huge-spacing)}
+.huge-margin-right {@include marg-right($huge-spacing)}
+
+.text-white{
+	color: $white;
+}
+.text-pink{
+	color: $pink;
+}
